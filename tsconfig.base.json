@@ -14,7 +14,19 @@
     "skipLibCheck": true,
     "skipDefaultLibCheck": true,
     "baseUrl": ".",
-    "paths": {}
+    "paths": {
+      "@thex-pms/bifrost": ["libs/bifrost/src/index.ts"],
+      "@thex-pms/core": ["libs/core/src/index.ts"],
+      "@thex-pms/pms-auth": ["libs/pms-auth/src/index.ts"],
+      "@thex-pms/pms-components": ["libs/pms-components/src/index.ts"],
+      "@thex-pms/pms-core": ["libs/pms-core/src/index.ts"],
+      "@thex-pms/pms-http": ["libs/pms-http/src/index.ts"],
+      "@thex-pms/pms-interfaces": ["libs/pms-interfaces/src/index.ts"],
+      "@thex-pms/pms-permissions": ["libs/pms-permissions/src/index.ts"],
+      "@thex-pms/pms-store": ["libs/pms-store/src/index.ts"],
+      "@thex-pms/shared": ["libs/shared/src/index.ts"],
+      "@thex-pms/tba": ["libs/tba/src/index.ts"]
+    }
   },
   "exclude": ["node_modules", "tmp"]
 }
