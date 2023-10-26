@@ -1,0 +1,12 @@
+<div class="main">
+  <ul class="main__nav">
+    <li><a routerLink="/">Home</a></li>
+    <li><a routerLink="/">Disponibilidade</a></li>
+    <li><a routerLink="pms-cash-operation">Operação de Caixa</a></li>
+    <li><a (click)="setReservationState()">Reservas</a></li>
+  </ul>
+  <div class="main__content">
+    <router-outlet></router-outlet>
+  </div>
+</div>
+

@@ -1,0 +1,5 @@
+<div>
+  <button (click)="setStateError()">Setar erro no app PMS RESERVATION</button>
+  <button (click)="clearError()">Limpar erro</button>
+  <p>Erro: {{ appFacade.error$ | async }}</p>
+</div>

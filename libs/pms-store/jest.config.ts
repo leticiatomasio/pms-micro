@@ -1,9 +1,9 @@
 /* eslint-disable */
 export default {
-  displayName: 'pms-core',
+  displayName: 'pms-store',
   preset: '../../jest.preset.js',
   setupFilesAfterEnv: ['<rootDir>/src/test-setup.ts'],
-  coverageDirectory: '../../coverage/libs/pms-core',
+  coverageDirectory: '../../coverage/libs/pms-store',
   transform: {
     '^.+\\.(ts|mjs|js|html)$': [
       'jest-preset-angular',
