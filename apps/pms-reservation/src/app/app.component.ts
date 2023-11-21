@@ -1,7 +1,7 @@
 import { Component } from '@angular/core';
 
 @Component({
-  selector: 'thex-pms-root',
+  selector: 'pms-root',
   templateUrl: './app.component.html',
 })
 export class AppComponent {}

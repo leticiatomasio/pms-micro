@@ -4,7 +4,14 @@ const mf = require("@angular-architects/module-federation/webpack");
 const path = require("path");
 
 const sharedMappings = new mf.SharedMappings();
-sharedMappings.register(path.join(__dirname, "../../tsconfig.base.json"), ["@pms-store"]);
+sharedMappings.register(
+  path.join(__dirname, "../../tsconfig.base.json"),
+  [
+    "@pms-store",
+    "@pms-auth",
+    "@pms-http"
+  ]
+);
 
 module.exports = withModuleFederation({
   ...config,

@@ -1,8 +1,8 @@
 import { Component } from '@angular/core';
-import { AppFacade } from '@pms-store';
+import { AppFacade } from '@totvs/pms-store';
 
 @Component({
-  selector: 'app-dashboard',
+  selector: 'pms-dashboard',
   templateUrl: './dashboard.component.html',
   styleUrls: ['./dashboard.component.scss']
 })

@@ -1,5 +1,3 @@
 {
-  "pms-availability": "http://localhost:4201",
-  "pms-cash-operation": "http://localhost:4202",
-  "pms-reservation": "http://localhost:4203"
+  "pms-reservation": "http://localhost:4201"
 }

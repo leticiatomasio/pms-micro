@@ -48,6 +48,7 @@
     "@types/jest": "^29.4.0",
     "@types/node": "16.11.7",
     "@typescript-eslint/eslint-plugin": "^5.36.1",
+    "daypilot-pro-angular": "https://npm.daypilot.org/daypilot-pro-angular/3ihon54qpbao5a2syxlgu2uvzm/2021.1.4859.tar.gz",
     "@typescript-eslint/parser": "^5.36.1",
     "cypress": "^12.2.0",
     "eslint": "~8.15.0",

@@ -2,7 +2,7 @@
   "name": "pms-store",
   "$schema": "../../node_modules/nx/schemas/project-schema.json",
   "sourceRoot": "libs/pms-store/src",
-  "prefix": "thex-pms",
+  "prefix": "pms",
   "tags": [],
   "projectType": "library",
   "targets": {

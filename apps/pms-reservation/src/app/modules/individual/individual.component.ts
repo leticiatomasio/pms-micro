@@ -1,8 +1,8 @@
 import { Component } from '@angular/core';
-import { AppFacade } from '@pms-store';
+import { AppFacade } from '@totvs/pms-store';
 
 @Component({
-  selector: 'app-individual',
+  selector: 'pms-individual',
   templateUrl: './individual.component.html',
   styleUrls: ['./individual.component.scss']
 })

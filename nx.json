@@ -1,6 +1,6 @@
 {
   "$schema": "./node_modules/nx/schemas/nx-schema.json",
-  "npmScope": "thex-pms",
+  "npmScope": "@totvs",
   "tasksRunnerOptions": {
     "default": {
       "runner": "@nrwl/nx-cloud",
@@ -74,5 +74,9 @@
     "@nrwl/angular:component": {
       "style": "scss"
     }
-  }
+  },
+  "affected": {
+    "defaultBase": "master"
+  },
+  "defaultProject": "pms"
 }

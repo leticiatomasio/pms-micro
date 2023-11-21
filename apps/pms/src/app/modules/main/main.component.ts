@@ -1,9 +1,9 @@
 import { Component, OnInit } from '@angular/core';
 import { Router } from '@angular/router';
-import { AppFacade } from '@pms-store';
+import { AppFacade } from '@totvs/pms-store';
 
 @Component({
-  selector: 'app-main',
+  selector: 'pms-main',
   templateUrl: './main.component.html',
   styleUrls: ['./main.component.scss']
 })

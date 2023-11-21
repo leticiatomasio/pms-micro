@@ -2,7 +2,7 @@
   "name": "pms-reservation",
   "$schema": "../../node_modules/nx/schemas/project-schema.json",
   "projectType": "application",
-  "prefix": "thex-pms",
+  "prefix": "pms",
   "sourceRoot": "apps/pms-reservation/src",
   "tags": [],
   "targets": {

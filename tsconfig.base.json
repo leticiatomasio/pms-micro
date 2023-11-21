@@ -15,11 +15,14 @@
     "skipDefaultLibCheck": true,
     "baseUrl": ".",
     "paths": {
-      "@pms-auth": ["libs/pms-auth/src/index.ts"],
-      "@pms-components": ["libs/pms-components/src/index.ts"],
-      "@pms-http": ["libs/pms-http/src/index.ts"],
-      "@pms-permissions": ["libs/pms-permissions/src/index.ts"],
-      "@pms-store": ["libs/pms-store/src/index.ts"]
+      "@totvs/pms-auth": ["libs/pms-auth/src/index.ts"],
+      "@totvs/pms-common": ["libs/pms-common/src/index.ts"],
+      "@totvs/pms-components": ["libs/pms-components/src/index.ts"],
+      "@totvs/pms-data-access": ["libs/pms-data-access/src/index.ts"],
+      "@totvs/pms-http": ["libs/pms-http/src/index.ts"],
+      "@totvs/pms-permissions": ["libs/pms-permissions/src/index.ts"],
+      "@totvs/pms-store": ["libs/pms-store/src/index.ts"],
+      "@totvs/pms-utils": ["libs/pms-utils/src/index.ts"]
     }
   },
   "exclude": ["node_modules", "tmp"]

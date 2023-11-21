@@ -4,12 +4,15 @@ import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
 import { StoreModule } from '@ngrx/store';
 import { EffectsModule } from '@ngrx/effects';
-import * as fromReservation from './reservation/reservation.reducer';
-import { ReservationEffects } from './reservation/reservation.effects';
-import { ReservationFacade } from './reservation/reservation.facade';
 import * as fromApp from './app/app.reducer';
 import { AppEffects } from './app/app.effects';
 import { AppFacade } from './app/app.facade';
+import * as fromUser from './user/user.reducer';
+import { UserEffects } from './user/user.effects';
+import { UserFacade } from './user/user.facade';
+import * as fromProperty from './property/property.reducer';
+import { PropertyEffects } from './property/property.effects';
+import { PropertyFacade } from './property/property.facade';
 
 @NgModule({
   imports: [
@@ -25,15 +28,17 @@ import { AppFacade } from './app/app.facade';
       }
     ),
     EffectsModule.forRoot([AppEffects]),
-    StoreModule.forFeature(fromApp.APP_FEATURE_KEY, fromApp.appReducer),
     StoreRouterConnectingModule.forRoot(),
     StoreDevtoolsModule.instrument(),
+    StoreModule.forFeature(fromApp.APP_FEATURE_KEY, fromApp.appReducer),
+    StoreModule.forFeature(fromUser.USER_FEATURE_KEY, fromUser.userReducer),
+    EffectsModule.forFeature([UserEffects]),
     StoreModule.forFeature(
-      fromReservation.RESERVATION_FEATURE_KEY,
-      fromReservation.reservationReducer
+      fromProperty.PROPERTY_FEATURE_KEY,
+      fromProperty.propertyReducer
     ),
-    EffectsModule.forFeature([ReservationEffects]),
+    EffectsModule.forFeature([PropertyEffects]),
   ],
-  providers: [ReservationFacade, AppFacade],
+  providers: [AppFacade, UserFacade, PropertyFacade],
 })
 export class PmsStoreModule {}
