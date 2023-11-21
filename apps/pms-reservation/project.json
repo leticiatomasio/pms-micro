@@ -58,8 +58,8 @@
     "serve": {
       "executor": "@nrwl/angular:webpack-dev-server",
       "options": {
-        "port": 4203,
-        "publicHost": "http://localhost:4203"
+        "port": 4201,
+        "publicHost": "http://localhost:4201"
       },
       "configurations": {
         "production": {
@@ -106,7 +106,7 @@
       "defaultConfiguration": "development",
       "options": {
         "buildTarget": "pms-reservation:build",
-        "port": 4203
+        "port": 4201
       },
       "configurations": {
         "development": {
